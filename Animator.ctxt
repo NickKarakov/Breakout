@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Animator
+comment0.text=\n\n\ @author\ Dr\ Tony\ Beaumont\n\ @version\ September\ 2017\n
+comment1.params=
+comment1.target=Animator()
+comment2.params=numFrames
+comment2.target=Animator(int)
+comment3.params=
+comment3.target=void\ init()
+comment3.text=\n\ This\ method\ is\ called\ to\ allow\ data\ to\ be\ initialised\ before\ the\n\ animation\ begins.\n
+comment4.params=
+comment4.target=void\ draw()
+comment4.text=\n\ The\ draw\ method\ is\ called\ repeatedly\ until\ the\ stop\ button\ on\ the\n\ animator\ window\ is\ clicked.\n
+numComments=5

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Wall
+comment0.text=\n\ Write\ a\ description\ of\ class\ Wall\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=numRows\ rowLength\ startX\ startY\ wallWidth
+comment1.target=Wall(int,\ int,\ double,\ double,\ double)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Wall\n
+comment2.params=
+comment2.target=void\ showWall()
+comment3.params=
+comment3.target=void\ makeWall()
+comment4.params=ball
+comment4.target=boolean\ ballBrickCollide(GBall)
+comment5.params=ball\ rx\ ry\ rw\ rh
+comment5.target=boolean\ detectCollision(GBall,\ double,\ double,\ double,\ double)
+comment5.text=\ \n\ Detect\ a\ collision\ between\ the\ ball\ (a\ circle)\ and\ a\ rectangle.\ \ \n\ If\ a\ collision\ is\ detected\ the\ ball\ will\ bounce\ up/down/left/right\ depending\ on\ which\ part\n\ of\ the\ rectangle\ it\ hits.\n\ @param\ ball\ The\ ball.\n\ @param\ rx\ the\ x\ coordinate\ of\ the\ rectangle\ (top\ left).\n\ @param\ ry\ the\ y\ coordinate\ of\ the\ rectangle\ (top\ left).\n\ @param\ rw\ the\ width\ of\ the\ rectangle.\n\ @param\ rh\ the\ height\ of\ the\ rectangle.\n\ @return\ true\ when\ a\ collision\ is\ detected\ and\ false\ otherwise.\n
+comment6.params=
+comment6.target=boolean\ noBricksLeft()
+comment7.params=
+comment7.target=java.util.ArrayList\ getWall()
+comment7.text=\n\ Get\ the\ wall.\ \ This\ is\ required\ so\ the\ Mover\ can\ add\ each\ brick\ to\ the\ canvas.\n\ @return\ an\ ArrayList\ of\ rows\ of\ bricks.\ \ Each\ row\ is\ an\ array\ of\ Brick\ objects.\n
+numComments=8

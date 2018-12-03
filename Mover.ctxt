@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Mover
+comment0.text=\n\n\ @author\ Dr\ Tony\ Beaumont\n\ @version\ September\ 2017\n
+comment1.params=width\ height
+comment1.target=Mover(double,\ double)
+comment1.text=\n\ Create\ new\ mover\ that\ moves\ a\ ball\ across\ the\ canvas,\ bouncing\ off\ the\ edges.\n\ The\ ball\ is\ initially\ in\ the\ centre\ of\ the\ canvas.\n\ @param\ width\ the\ width\ of\ the\ canvas.\n\ @param\ height\ the\ height\ of\ the\ canvas.\n
+comment2.params=mouseX\ mouseY
+comment2.target=int\ next(double,\ double)
+comment2.text=\n\ The\ next\ frame\ of\ animation.\ \ \n\ Move\ the\ bat.\ \ Then\ move\ the\ ball\ one\ step\ and\ bounce\ when\ it\ hits\ \n\ the\ top\ or\ side\ of\ the\ canvas\ or\ the\ top\ of\ the\ bat.\n\ @return\ false\ if\ the\ ball\ did\ not\ touch\ the\ bat.\ \ \n\ Returns\ the\ score\ during\ this\ move.\ \ 1\ for\ a\ hit,\ 5\ for\ a\ pop.\n
+comment3.params=
+comment3.target=boolean\ checkBounce()
+comment4.params=mouseX
+comment4.target=void\ moveBat(double)
+comment4.text=\n\ The\ bat\ moves\ 20\ pixels\ towards\ the\ mouse\ in\ the\ X\ direction\ only.\n\ The\ bat\ never\ moves\ out\ of\ the\ canvas.\n
+comment5.params=
+comment5.target=void\ reset()
+comment5.text=\n\ Called\ after\ the\ ball\ touches\ the\ ground.\ \ Move\ the\ ball\ to\ the\ center\n\ and\ set\ touchedGround\ to\ be\ false;\n
+comment6.params=
+comment6.target=boolean\ missed()
+comment6.text=\n\ Record\ that\ the\ ball\ touched\ the\ ground\ in\ the\ last\ life.\n\ @return\ true\ when\ the\ ball\ touched\ the\ ground\ and\ false\ otherwise.\n
+comment7.params=
+comment7.target=acm.graphics.GObject[]\ getImage()
+comment7.text=\n\ Get\ the\ visible\ image\ used\ by\ this\ mover.\ In\ this\ example\ the\ GObject\ is\n\ a\ blue\ circle.\n\ @return\ The\ graphics\ object\ representing\ the\ ball\ on\ the\ canvas.\n
+numComments=8

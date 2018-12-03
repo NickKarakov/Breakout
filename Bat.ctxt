@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Bat
+comment0.text=\n\ This\ class\ defines\ a\ GObject\ subclass\ that\ represents\ a\ ball\ whose\ reference\n\ point\ is\ the\ center\ rather\ than\ the\ upper\ left\ corner.\n
+comment1.params=
+comment1.target=Bat()
+comment1.text=\n\ Creates\ a\ new\ ball\ with\ radius\ r\ centered\ at\ the\ origin\n\ @param\ r\ The\ radius\ of\ the\ ball\n
+comment2.params=
+comment2.target=double\ getLeft()
+comment3.params=
+comment3.target=double\ getRight()
+comment4.params=
+comment4.target=double\ getTop()
+comment5.params=
+comment5.target=double\ getBottom()
+numComments=6

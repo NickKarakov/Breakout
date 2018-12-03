@@ -4,7 +4,7 @@ import java.util.Arrays;
 /**
  * Write a description of class Wall here.
  *
- * @author (your name)
+ * @author (Nick Karakov)
  * @version (a version number or a date)
  */
 public class Wall
